@@ -1,5 +1,5 @@
 <?php
-    class SocialMedial extends Conectar{
+    class SocialMedia extends Conectar{
 
         public function get_socialMedia(){
             $social = parent::conexion();
