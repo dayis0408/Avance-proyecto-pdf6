@@ -10,7 +10,7 @@ class Usuario extends Conectar{
 				header("Location:" . Conectar::ruta() . "index.php?m=2");
 				exit();
 			}else{
-				$sql = "SELECT * FROM usuarios WHERE correo=? and password=? and estado=1";
+				$sql = "SELECT * FROM usuario WHERE correo=? and password=? and estado=1";
 				$stmt = $conectar -> prepare($sql);
 				$stmt -> bindValue(1, $correo);
 				$stmt -> bindValue(2, $password);
@@ -18,7 +18,7 @@ class Usuario extends Conectar{
 				$resultado = $stmt -> fetch();
 
 				if (is_array($resultado) and count($resultado)>0){
-					$_SESSION["id"] = $resultado["id"];
+					$_SESSION["usu_id"] = $resultado["id"];
 					$_SESSION["nombre"] = $resultado["nombre"];
 					$_SESSION["apellido_paterno"] = $resultado["apellido_paterno"];
 					$_SESSION["correo"] = $resultado["correo"];

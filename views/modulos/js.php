@@ -48,3 +48,37 @@
 <script src="../../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+
+
+<script src="datatables/jquery.dataTables.min.js"></script>
+<script src="datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="datatables-buBons/js/dataTables.buBons.min.js"></script>
+<script src="datatables-buBons/js/buBons.bootstrap4.min.js"></script>
+<script src="jszip/jszip.min.js"></script>
+<script src="pdfmake/pdfmake.min.js"></script>
+<script src="pdfmake/vfs_fonts.js"></script>
+<script src="atatables-buBons/js/buBons.html5.min.js"></script>
+<script src="datatables-buBons/js/buBons.print.min.js"></script>
+<script src="datatables-buBons/js/buBons.colVis.min.js"></script>
+<script src="select2/js/select2.full.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

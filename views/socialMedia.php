@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Blank Page</title>
   <?php
-  include_once("modelos/head.php");
+  include_once("modulos/head.php");
   ?>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -54,10 +54,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="imagen/Foto.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Dayanna Loaiza</a>
         </div>
       </div>
 
@@ -68,40 +68,57 @@
           
           <li class="nav-header">EXAMPLES</li>
           
-          <li class="nav-item">
-            <a href="../gallery.html" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Gallery
-              </p>
-            </a>
-          </li>
+          
+          <!-- SidebarSearch Form -->
+        <div class="form-inline">
+          <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-fw"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+       
           
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon far fa-envelope"></i>
-              <p>
-                Mailbox
+          <a href="pages/widgets.html" class="nav-link">
+							<i class="nav-icon fas fa-th"></i>
+							<p>
+								Tablas
                 <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
+							</p>
+						</a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="../mailbox/mailbox.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inbox</p>
+                  <p>Usuarios</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../mailbox/compose.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Compose</p>
+                  <p>Redes Sociales</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../mailbox/read-mail.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Read</p>
+                  <p>Estudios</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../mailbox/read-mail.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Habilidades</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../mailbox/read-mail.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Informacion Personal</p>
                 </a>
               </li>
             </ul>
@@ -133,6 +150,17 @@
       </div><!-- /.container-fluid -->
     </section>
 
+    <table id="socialMedia_data" class="table display responsive wrap"> 
+    <thead>
+        <tr>
+        <th class="wd-10p">Usuarios</th>
+        <th class="wd-10p">Redes Sociales</th>
+        <th class="wd-10p">Estudios</th>
+        <th class="wd-10p">Habilidades</th>
+        <th class="wd-10p">Informacion Personal</th>
+        </tr>
+    </thead>
+    </table>
     <!-- Main content -->
     <section class="content">
 
@@ -168,5 +196,11 @@
 <script src="../../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+
+<?php require_once("modal.php"); ?>
+
+<?php requiered_once("modulos/js.php");?>
+<script type="text/javascript" src="js/socialMedia.js"></script>
+
 </body>
 </html>

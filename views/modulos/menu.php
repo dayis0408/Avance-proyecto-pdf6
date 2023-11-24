@@ -48,11 +48,11 @@
 			<!-- Sidebar user panel (optional) -->
 			<div class="user-panel mt-3 pb-3 mb-3 d-flex">
 				<div class="image">
-					<img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+					<img src="imagen/Foto.jpg" class="img-circle elevation" alt="User Image">
 				</div>
 				<div class="info">
 					<input type="hidden" id="id" value="<?php echo $_SESSION["id"] ?>">
-					<a href="#" class="d-block"><?php echo $_SESSION["nombre"];?></a>
+					<a href="#" class="d-block"><?php echo $_SESSION["nombre"];?></a> Loaiza </a>
 				</div>
 			</div>
 					

@@ -34,8 +34,8 @@ if(isset($_SESSION["id"])){
 	<aside class="main-sidebar sidebar-dark-primary elevation-4">
 		<!-- Brand Logo -->
 		<a href="index3.html" class="brand-link">
-			<img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-			<span class="brand-text font-weight-light">AdminLTE 3</span>
+			<img src="imagen/Foto.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+			<span class="brand-text font-weight-light">Dayanna Loaiza</span>
 		</a>
 
 		<!-- Sidebar -->
@@ -657,7 +657,9 @@ if(isset($_SESSION["id"])){
 			<!-- /.sidebar-menu -->
 		</div>
 		<!-- /.sidebar -->
+
 	</aside>
+
 
 	<!-- Content Wrapper. Contains page content -->
 	<div class="content-wrapper">
@@ -677,6 +679,75 @@ if(isset($_SESSION["id"])){
 				</div><!-- /.row -->
 			</div><!-- /.container-fluid -->
 		</div>
+
+		 <!-- Main content -->
+		 <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>New Orders</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                <p>Bounce Rate</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>44</h3>
+
+                <p>User Registrations</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Unique Visitors</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+        <!-- /.row -->
+
 		<!-- /.content-header -->
 
 		<!-- Main content -->
@@ -698,6 +769,8 @@ if(isset($_SESSION["id"])){
 <?php
 require_once("modulos/js.php");
 ?>
+
+
 </body>
 </html>
 <?php

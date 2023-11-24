@@ -68,8 +68,6 @@ if(isset($_POST["enviar"]) and $_POST["enviar"]=="si"){
         </div>
         <div class="row">
           <div class="col-12">
-            <input type="hidden" name="enviar" class="from-control" value="si">
-            <button type="submit" class="btm btn-primary btn-block">Acceder</button>
             <div class="icheck-primary">
               <input type="checkbox" id="remember">
               <label for="remember">
@@ -79,6 +77,8 @@ if(isset($_POST["enviar"]) and $_POST["enviar"]=="si"){
           </div>
           <!-- /.col -->
           <div class="col-4">
+            
+          <input type="hidden" name="enviar" class="from-control" value="si">
             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
           </div>
           <!-- /.col -->
@@ -112,5 +112,6 @@ if(isset($_POST["enviar"]) and $_POST["enviar"]=="si"){
 <?php
 require_once("views/modulos/js.php");
 ?>
+
 </body>
 </html>
